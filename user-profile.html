@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>User Profile | StoreManager</title>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+
+    <script src="assets/js/Chart.bundle.min.js"></script>
+</head>
+<body>
+  <div class="main-wrapper">
+    
+    <div id="top-header-admin" class="no-pad flex flex-btw">
+      <div id="header-logo">
+        <img src="assets/images/logo.svg" alt="storemanager logo">
+      </div>
+
+      <div class="avatar">
+          <img src="assets/images/avatar.jpg" alt="Profile Picture">
+      </div>
+    </div>
+
+    <div id="menu-sidebar">
+    </div>
+
+    <div id="content-section-admin" class="qs">
+      <div class="flex flex-btw">
+        <div id="user-profile-card" class="card mg-20-r">
+            <div class="profile flex-col pd-20 qs mg-20-t">
+                <div id="profile-pic" class="mg-0">
+                  <div class="big-avatar al-center">
+                    <img src="assets/images/avatar.jpg" alt="">
+                  </div>
+                </div>
+                <div id="profile-details">
+                  <h2 class="fs-30 fw-light fc-pink mg-0">James Doe</h2>
+                  <div class="fs-13 fc-light-grey flex flex-col mg-10-vt">
+                      <span><i class="fas fa-users"></i> Store Attendant</span>
+                      <span><i class="fas fa-calendar-alt"></i> 20 - 06 - 2016</span>
+                  </div>
+                  
+                </div>
+              </div>
+
+        </div>
+        <div id="sales-graph" class="card flex-1">
+          <h2 class="mg-10-vt fc-light-grey fs-15">Sales Chart</h2>
+          <canvas id="sales-chart" height="350px"></canvas>
+        </div>
+      </div>
+        <div id="sales-stats" class="flex flex-btw mg-20-vt">
+          <div class="stats card">
+            <h2>24</h2>
+            <p>Items Sold</p>
+          </div>
+          <div class="stats card">
+              <h2>32,000</h2>
+              <p>worth of goods sold (Ksh)</p>
+          </div>
+          <div class="stats card">
+              <h2>10</h2>
+              <p>Sales made</p>
+          </div>
+        </div>
+  
+        <div id="sales-table" class="card">
+          <table class="table-1 fs-14">
+            <tr>
+              <th>Date</th>
+              <th>Items</th>
+              <th>Total</th>
+            </tr>
+  
+            <tr>
+              <td>Nov 23</td>
+              <td>Japanese Cherry Blossom * 2</td>
+              <td>Kshs 2,000</td>
+            </tr>
+            
+            <tr>
+              <td>Nov 23</td>
+              <td>Japanese Cherry Blossom * 2</td>
+              <td>Kshs 2,000</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+  </div>
+  <script src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/graph.js"></script>
+  <script type="text/javascript" src="assets/js/include.js"></script>
+</body>
+</html>

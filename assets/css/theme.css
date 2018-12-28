@@ -1,0 +1,177 @@
+/* COLORS */
+
+/*
+  PINK  ----  #EF476F
+  YELLOW ------- #FFD166
+  DARK-BLUE ---- #073B4C
+  BLUE ---------- #118AB2
+  GREEN --------#06D6A0
+  GREY ---------#AAAAAA
+  DARK-GREY ----#333333
+  LIGHT-GREY --- #EEEBEB
+  OFF-WHITE --- #FAFAFA
+*/
+
+
+/* FONT STYLES */
+
+/** Font Size **/
+
+.qs{
+  font-family: 'Quicksand', sans-serif;
+}
+.fs-10{
+  font-size: 10px;
+}
+.fs-11{
+  font-size: 11px;
+}
+.fs-12{
+  font-size: 12px;
+}
+.fs-13{
+  font-size: 13px;
+}
+.fs-14{
+  font-size: 14px;
+}
+.fs-15{
+  font-size: 15px;
+}
+.fs-25{
+  font-size: 25px;
+}
+.fs-30{
+  font-size: 30px;
+}
+
+/** Font Weight **/
+.fw-light{
+  font-weight: 100;
+}
+.fw-regular{
+  font-weight: 400;
+}
+.fw-semi{
+  font-weight: 500;
+}
+.fw-bold{
+  font-weight: 600;
+}
+.fw-xbold{
+  font-weight: 700;
+}
+
+/** Font Color **/
+
+.fc-blue{
+  color: #118AB2
+}
+
+.fc-pink{
+  color: #EF476F;
+}
+
+.fc-light-grey{
+  color: #AAAAAA;
+}
+
+.fc-dark-grey{
+  color: #333333;
+}
+
+.fc-grey{
+  color: #707070; 
+}
+
+/*** Spacing ***/
+.mg-0{
+  margin: 0px;
+}
+
+.mg-10{
+  margin: 10px;
+}
+
+.mg-10-hz{
+  margin: 0px 10px;
+}
+
+.mg-10-vt{
+  margin: 10px 0px;
+}
+
+.mg-20-vt{
+  margin: 20px 0px;
+}
+
+.mg-20-t{
+  margin-top: 20px;
+}
+
+.mg-20-r{
+  margin-right: 20px;
+}
+
+.pd-10{
+  padding: 10px;
+}
+
+.pd-20{
+  padding: 20px;
+}
+
+.pd-10-hz{
+  padding: 0px 10px;
+}
+
+.pd-10-vt{
+  padding: 10px 0px;
+}
+/*** flexbox ***/
+.flex{
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
+.flex-btw{
+  justify-content: space-between;
+}
+
+.flex-start{
+  justify-content: flex-start;
+}
+
+.flex-center{
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.flex-1{
+  flex: 1;
+}
+
+.flex-2{
+  flex: 2;
+}
+
+.flex-3{
+  flex: 3;
+}
+
+.al-center{
+  text-align: center;
+  margin: 0px auto;
+}
+
+/**  common styles  **/
+
+.no-pad{
+  box-sizing: border-box;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>View Product | StoreManager</title>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+</head>
+<body>
+  <div class="main-wrapper">
+    
+    <div id="top-header" class="no-pad flex flex-btw">
+      <div id="header-logo">
+        <img src="assets/images/logo.svg" alt="storemanager logo">
+      </div>
+
+      <div class="avatar">
+          <img src="assets/images/avatar.jpg" alt="Profile Picture">
+      </div>
+    </div>
+
+    <div id="content-section">
+      <div id="item-wrapper" class="flex qs">
+        <div id="item-images">
+          <div class="big-img card flex flex-center">
+              <img src="assets/images/gel-big.jpg" alt="">
+          </div>
+         <div class="thumb-img flex flex-start mg-20-vt">
+           <div class="card thumb">
+            <img src="assets/images/gel.jpg" alt="">
+           </div>
+         </div>
+        </div>
+        <div id="item-details" class="pd-20 no-pad">
+          <h2 class="fs-30 fw-regular fc-dark-grey mg-0">Strawberry Shower Gel</h2>
+
+          <div class="tag"> <i class="fas fa-tags"></i> Toiletries </div>
+
+          <div class="stock fs-14 fw-semi fc-light-grey mg-10-vt pd-10-vt">
+            <p>Min Stock: 10</p>
+            <p>Current Stock: 23</p>
+          </div>
+
+          <h2 class="fs-25 fw-light fc-pink">Ksh 1,000</h2>
+          <hr class="hr mg-10-vt">
+          <div class="clear"></div>
+          <button class="btn mg-10-vt">Add to Cart</button>
+        </div>
+      </div>
+      
+    </div>
+
+    <div id="cart-sidebar">
+      <h2 class="form-header qs fs-30 fw-light">Cart</h2>
+
+      <div class="cart-list">
+
+        <div class="cart-item flex">
+          <div class="item-image">
+            <img src="assets/images/nivea.jpg" alt="">
+          </div>
+          <div class="item-info qs">
+            <span class="fs-14 fw-bold fc-dark-grey">Nivea Body Deodorant</span>
+            <div class="tag"> <i class="fas fa-tags"></i> Makeup </div>
+
+            <div class="flex flex-btw mg-10-vt">
+                <span class="fs-14 fc-dark-grey fw-bold">
+                  <span><i class="fas fa-caret-left fs-12 span-btn"></i></span>
+                  <span class="mg-10-hz">2</span> 
+                  <span><i class="fas fa-caret-right fs-12 span-btn"></i></span>
+                </span>
+                <span class="fs-14 fc-pink fw-bold">Ksh 2,000</span>
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="cart-item flex">
+            <div class="item-image">
+              <img src="assets/images/lotion.jpg" alt="">
+            </div>
+            <div class="item-info qs">
+              <span class="fs-14 fw-bold fc-dark-grey">Japanese Cherry Blossom</span>
+              <div class="tag"> <i class="fas fa-tags"></i> Body Lotion </div>
+
+              <div class="flex flex-btw mg-10-vt">
+                  <span class="fs-14 fc-dark-grey fw-bold">
+                    <span><i class="fas fa-caret-left fs-12 span-btn"></i></span>
+                    <span class="mg-10-hz">2</span> 
+                    <span><i class="fas fa-caret-right fs-12 span-btn"></i></span>
+                  </span>
+                  <span class="fs-14 fc-pink fw-bold">Ksh 2,000</span>
+              </div>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="cart-totals">
+        <table class="qs fw-semi fs-14 fc-light-grey no-pad">
+          <tr class="t-rows">
+            <td>Subtotal:</td>
+            <td align="right">Ksh 4,000</td>
+          </tr>
+
+          <tr class="t-rows">
+            <td>VAT(16%):</td>
+            <td align="right">Ksh 640</td>
+          </tr>
+
+          <tr id="tr-total" class="fs-15 fw-bold fc-dark-grey">
+            <td class="fc-pink">Total</td>
+            <td align="right">Ksh 4,640</td>
+          </tr>
+        </table>
+      </div>
+
+      <button class="btn">Checkout</button>
+    </div>
+
+  </div>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/include.js"></script>
+</body>
+</html>
