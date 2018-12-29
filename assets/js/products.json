@@ -1,0 +1,61 @@
+{
+  "products" : [
+    {
+      "id" : 1,
+      "title" : "Nivea Body Deodorant",
+      "price" : 1000,
+      "category" : "Makeup",
+      "image_url" : "nivea.jpg",
+      "stock" : 23
+    },
+    {
+      "id" : 2,
+      "title" : "Strawberry Shower Gel",
+      "price" : 1000,
+      "category" : "Toiletries",
+      "image_url" : "gel.jpg",
+      "stock" : 28
+    },
+    {
+      "id" : 3,
+      "title" : "Japanese Cherry Blossom",
+      "price" : 1000,
+      "category" : "Body Lotion",
+      "image_url" : "lotion.jpg",
+      "stock" : 28
+    },
+    {
+      "id" : 4,
+      "title" : "Miss Dior Perfume",
+      "price" : 1000,
+      "category" : "Perfume",
+      "image_url" : "perfume.jpg",
+      "stock" : 28
+    },
+    {
+      "id" : 5,
+      "title" : "Face Serum",
+      "price" : 1000,
+      "category" : "Makeup",
+      "image_url" : "cantu.jpg",
+      "stock" : 28
+    },
+    {
+      "id" : 6,
+      "title" : "Miami Matte Lipstick",
+      "price" : 1000,
+      "category" : "Makeup",
+      "image_url" : "lipstick.jpg",
+      "stock" : 28
+    },
+    {
+      "id" : 7,
+      "title" : "Garnier Lift Cream",
+      "price" : 1000,
+      "category" : "Makeup",
+      "image_url" : "cream.png",
+      "stock" : 28
+    }
+    
+  ]
+}

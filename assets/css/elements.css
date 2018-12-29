@@ -4,6 +4,7 @@
   background-color: white;
   border-radius: 6px;
   padding: 10px 10px;
+  overflow: hidden;
 }
 
 .card-center{
@@ -53,7 +54,7 @@
 }
 
 .btn{
-  background-color: #AAAAAA;
+  background-color: #EEEBEB;
   color: #333333;
   border: none;
   border-radius: 16px;
@@ -116,6 +117,10 @@
 
 .avatar img{
   width: 100%;
+}
+
+img{
+  max-width: 90%;
 }
 
 .big-avatar{
